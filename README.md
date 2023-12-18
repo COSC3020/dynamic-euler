@@ -1,11 +1,10 @@
 # Dynamic Programming Euler's Number
 
 The mathematical constant $e$ (Euler's number) is defined as follows:
-$$
-e = \sum^{\infty}_{i=0} \frac{1}{i!} = \frac{1}{1} + \frac{1}{1} +
+
+$$ e = \sum^{\infty}_{i=0} \frac{1}{i!} = \frac{1}{1} + \frac{1}{1} +
 \frac{1}{1\cdot 2} + \frac{1}{1\cdot 2\cdot 3} + \frac{1}{1\cdot 2\cdot 3\cdot
-4} + \ldots
-$$
+4} + \ldots$$
 
 I've provided an implementation of a function to approximate $e$ up to a number
 of $n$ terms in `code.js` for you. However, it does repeated work -- identify
